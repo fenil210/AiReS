@@ -1,0 +1,15 @@
+streamlit
+pypdf2
+langchain
+python-dotenv
+faiss-cpu
+openai
+huggingface-hub
+sentence-transformers==2.2.2
+tiktoken
+aspose.slides
+spire.pdf
+python-pptx
+python-docx
+huggingface-hub
+InstructorEmbedding
