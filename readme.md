@@ -51,6 +51,19 @@ Users can conveniently download the question-answer history in a .txt format, fa
 - **OpenAI GPT-3**: Language model for generating responses to user queries and conducting conversations.
 - **Langchain**: Library for advanced text processing tasks such as text splitting, embeddings, and conversational chains.
 
+### 8. Langchain: Advanced Text Processing
+
+Langchain is a powerful library designed to handle advanced text processing tasks, enhancing the capabilities of our AI Research Assistant Chatbot. Here's how Langchain contributes to the functionality of the chatbot:
+
+- **Text Splitting**: Langchain offers sophisticated algorithms for splitting text into meaningful segments, allowing the chatbot to analyze documents at a granular level and extract key information effectively.
+
+- **Embeddings**: Langchain facilitates the generation of text embeddings, which encode the semantic meaning of words and sentences into numerical vectors. These embeddings enable the chatbot to understand the context of research papers and provide accurate responses to user queries.
+
+- **Conversational Chains**: By leveraging Langchain's conversational chain functionality, the chatbot can maintain context across multiple interactions with users, ensuring a seamless and engaging conversational experience.
+
+With Langchain, our AI Research Assistant Chatbot is equipped to handle complex text processing tasks, enabling it to deliver intelligent and contextually relevant responses to researchers' queries. This integration enhances the chatbot's overall performance and user satisfaction, making it an indispensable tool in the research workflow.
+
+
 ## External Dependencies
 
 Ensure the following dependencies are installed externally:
@@ -84,7 +97,7 @@ Ensure the following dependencies are installed externally:
    - Install Tesseract OCR:
     
     ```bash
-    sudo apt install tesseract-ocr
+    pip install install tesseract-ocr
     ```
 
 ## Usage
@@ -111,6 +124,7 @@ Ensure the following dependencies are installed externally:
 The AI Research Assistant Chatbot revolutionizes the way researchers interact with academic literature, offering unparalleled accessibility and intelligence in navigating complex research domains. With its comprehensive feature set and advanced technologies, this chatbot serves as an indispensable tool for scholars seeking to expedite their research endeavors and unlock new insights within the vast repository of scholarly knowledge. Experience the future of academic research assistance today!
 
 ---
+Please find the demo video and performance evolution [here](https://drive.google.com/drive/folders/1D5eJtdLSYhUJ0dgnw1IMhDGQmNjO505t)
 
 **Project Details:**
 
