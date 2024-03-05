@@ -63,6 +63,62 @@ Langchain is a powerful library designed to handle advanced text processing task
 
 With Langchain, our AI Research Assistant Chatbot is equipped to handle complex text processing tasks, enabling it to deliver intelligent and contextually relevant responses to researchers' queries. This integration enhances the chatbot's overall performance and user satisfaction, making it an indispensable tool in the research workflow.
 
+## Workflow Description
+
+The AI Research Assistant Chatbot follows a comprehensive workflow to ensure accurate and efficient processing of research papers and user queries. Here's an overview of the workflow:
+
+1. **Ensuring Proper Functioning of Document Formats**: The chatbot ensures proper functioning across all document formats, including edge cases such as two-column formats. It is tested on various sizes and orientations, such as A4 and A5.
+
+2. **Input File Handling**: Users can upload research papers in PDF, DOCX, PPTX, or LaTeX formats. The chatbot performs chunking of the given text for optimized representation.
+
+3. **Word Embedding Model**: The chatbot utilizes a word embedding model, such as Ada v2 or Instructure XL, to generate context-based embeddings. These embeddings are stored in a dense vector space format.
+
+4. **User Query Processing**: When a user submits a query, the chatbot converts the query into a dense vector representation.
+
+5. **Ranked Retrieval**: The chatbot performs ranked retrieval from the vector space, using the dense vectors generated from the embeddings.
+
+6. **Language Model Integration**: Utilizing Langchain, the chatbot employs a Language Model (LLM), such as OpenAI's GPT-3 or LLaMA 2 17B, to retrieve relevant outputs based on the user query.
+
+7. **Output Generation**: Finally, the chatbot generates an output based on the retrieved information, providing users with contextually relevant answers to their queries.
+
+This structured workflow ensures that the AI Research Assistant Chatbot delivers accurate and informative responses, enhancing the research experience for users.
+
+## Features
+
+The AI Research Assistant Chatbot boasts a multifaceted set of features, categorized into different levels for a comprehensive understanding of its capabilities:
+
+### Level-1: Textual Understanding
+
+The chatbot excels at textual understanding, providing users with intelligent responses based on the content of research papers.
+
+### Level-2: Explanation of Tables
+
+The chatbot offers satisfactory explanations of tables present in documents, enhancing the user's understanding of tabular data.
+
+### Level-3: Mathematical Equations
+
+- **Identification**: The chatbot is capable of identifying mathematical equations present in documents.
+- **Cross-Format Equation Retrieval**: It can find equations from all document formats.
+- **Explanation**: The chatbot provides satisfactory explanations of the identified equations, elucidating the logic and mathematics used.
+
+### Level-4: Image Extraction
+
+- **Extraction**: The chatbot can extract images from documents.
+- **Image Count**: It outputs the number of images present in the document.
+
+### Level-5: Advanced Functionality
+
+- **Seamless Question-Answering**: The chatbot seamlessly answers both logical and factual questions.
+- **Source Citation**: It cites the origin source of the information retrieved, indicating precisely where the output is generated from.
+- **Downloadable Chat History**: Users can download the entire chat history in a question-answer format for further reference.
+- **OCR from Images**: The chatbot performs OCR from images, generating meaningful brief explanations using nltk-pos_tagging.
+- **Image Descriptions**: Using GPT-2-based vision transformers, the chatbot generates short descriptions of images.
+- **User-Friendly Interface**: The chatbot features a user-friendly interface for a seamless and intuitive experience.
+- **Prompt-Control Chain**: An effective prompt-control chain is implemented to prevent hallucination or misleading responses.
+- **Test Case Generation**: The chatbot has the capability to generate test cases for model performance evaluation.
+
+These features collectively make the AI Research Assistant Chatbot a powerful and versatile tool for researchers, providing a holistic solution for document analysis and information retrieval.
+
 
 ## External Dependencies
 
