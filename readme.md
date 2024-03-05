@@ -69,7 +69,7 @@ With Langchain, our AI Research Assistant Chatbot is equipped to handle complex 
 Ensure the following dependencies are installed externally:
 
 - **Tesseract OCR**: Install Tesseract OCR for PyTesseract to work properly.
-  - Install via: `sudo apt install tesseract-ocr`
+  - Install via: `pip install tesseract-ocr`
 - **TeX/LaTeX Distribution**: Install a TeX/LaTeX distribution for pylatexenc.
   - Example: TeX Live - [Download Link](https://www.tug.org/texlive/)
 
